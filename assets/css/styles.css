@@ -1,0 +1,6 @@
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: var(--bs-navbar-active-color);
+  font-weight: bold;
+  background-color: var(--bs-primary);
+}
+

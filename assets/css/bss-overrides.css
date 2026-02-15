@@ -1,0 +1,184 @@
+:root, [data-bs-theme=light] {
+  --bs-primary: #13967d;
+  --bs-primary-rgb: 19,150,125;
+  --bs-primary-text-emphasis: #083C32;
+  --bs-primary-bg-subtle: #D0EAE5;
+  --bs-primary-border-subtle: #A1D5CB;
+  --bs-secondary: #2c3e50;
+  --bs-secondary-rgb: 44,62,80;
+  --bs-secondary-text-emphasis: #121920;
+  --bs-secondary-bg-subtle: #D5D8DC;
+  --bs-secondary-border-subtle: #ABB2B9;
+}
+
+.btn-primary {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #13967d;
+  --bs-btn-border-color: #13967d;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #36A691;
+  --bs-btn-hover-border-color: #2BA18A;
+  --bs-btn-focus-shadow-rgb: 3,23,19;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #42AB97;
+  --bs-btn-active-border-color: #2BA18A;
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: #13967d;
+  --bs-btn-disabled-border-color: #13967d;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #13967d;
+  --bs-btn-border-color: #13967d;
+  --bs-btn-focus-shadow-rgb: 19,150,125;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #13967d;
+  --bs-btn-hover-border-color: #13967d;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #13967d;
+  --bs-btn-active-border-color: #13967d;
+  --bs-btn-disabled-color: #13967d;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #13967d;
+}
+
+.btn-secondary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #2c3e50;
+  --bs-btn-border-color: #2c3e50;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #253544;
+  --bs-btn-hover-border-color: #233240;
+  --bs-btn-focus-shadow-rgb: 223,226,229;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #233240;
+  --bs-btn-active-border-color: #212F3C;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #2c3e50;
+  --bs-btn-disabled-border-color: #2c3e50;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: #2c3e50;
+  --bs-btn-border-color: #2c3e50;
+  --bs-btn-focus-shadow-rgb: 44,62,80;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #2c3e50;
+  --bs-btn-hover-border-color: #2c3e50;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #2c3e50;
+  --bs-btn-active-border-color: #2c3e50;
+  --bs-btn-disabled-color: #2c3e50;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #2c3e50;
+}
+
+.p-2 {
+  padding: .5rem!important;
+}
+
+.p-4 {
+  padding: 1.5rem!important;
+}
+
+.px-2 {
+  padding-right: .5rem!important;
+  padding-left: .5rem!important;
+}
+
+.px-3 {
+  padding-right: 1rem!important;
+  padding-left: 1rem!important;
+}
+
+.px-4 {
+  padding-right: 1.5rem!important;
+  padding-left: 1.5rem!important;
+}
+
+.px-5 {
+  padding-right: 3rem!important;
+  padding-left: 3rem!important;
+}
+
+.py-2 {
+  padding-top: .5rem!important;
+  padding-bottom: .5rem!important;
+}
+
+.py-3 {
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
+}
+
+.py-4 {
+  padding-top: 1.5rem!important;
+  padding-bottom: 1.5rem!important;
+}
+
+.pe-0 {
+  padding-right: 0!important;
+}
+
+.pb-0 {
+  padding-bottom: 0!important;
+}
+
+.pb-2 {
+  padding-bottom: .5rem!important;
+}
+
+@media (min-width:576px) {
+  .px-sm-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+  }
+}
+
+@media (min-width:768px) {
+  .p-md-5 {
+    padding: 3rem!important;
+  }
+}
+
+@media (min-width: 768px) {
+  .px-md-6 {
+    padding-left: 4.5rem !important;
+    padding-right: 4.5rem !important;
+  }
+}
+
+@media (min-width:992px) {
+  .px-lg-5 {
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
+  }
+}
+
+@media (min-width:992px) {
+  .pb-lg-1 {
+    padding-bottom: .25rem!important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .px-xl-6 {
+    padding-left: 4.5rem !important;
+    padding-right: 4.5rem !important;
+  }
+}
+
+@media (min-width:1200px) {
+  .py-xl-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+  }
+}
+
+@media (min-width:1400px) {
+  .px-xxl-0 {
+    padding-right: 0!important;
+    padding-left: 0!important;
+  }
+}
+
